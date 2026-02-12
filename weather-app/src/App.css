@@ -1,0 +1,89 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f9;
+}
+
+/* Main Container */
+.container {
+  text-align: center;
+  margin-top: 80px;
+}
+
+/* Title */
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Search Box */
+.search-box {
+  margin-bottom: 25px;
+}
+
+input {
+  padding: 10px;
+  width: 220px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+input:focus {
+  border-color: #4a90e2;
+}
+
+/* Button */
+button {
+  padding: 10px 16px;
+  margin-left: 8px;
+  border-radius: 6px;
+  border: none;
+  background-color: #4a90e2;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+/* Weather Card */
+.weather-card {
+  background: white;
+  padding: 25px;
+  width: 300px;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.weather-card h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.weather-card p {
+  margin: 6px 0;
+  color: #555;
+}
+
+/* Weather Icon */
+.weather-card img {
+  margin: 10px 0;
+}
+
+/* Error & Loading */
+.error {
+  color: red;
+  margin-top: 15px;
+}
+
+.loading {
+  color: #4a90e2;
+  margin-top: 15px;
+}
